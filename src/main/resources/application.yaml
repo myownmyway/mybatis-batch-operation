@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: mybatis-batch-operation
+  datasource:
+    url: jdbc:mysql://localhost:3306/study?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
